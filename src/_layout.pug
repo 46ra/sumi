@@ -86,9 +86,8 @@ html
           |⚠ この网站はGoogle Analyticsを使用します。この网站は携帶端末用ではありません。
 
     main(class=verticalMain ? "vertical" : "")
-      article
-        +section(title, tags)
-          block main
+      +section(title, tags)
+        block main
 
-        //+section("")
-          include _discus.pug
+      //+section("")
+        include _discus.pug
